@@ -3,6 +3,8 @@
 import { UserProfile, UserProfilePage, UserProfileLink } from "@clerk/nextjs";
 import { ColorThemePage } from "../../components/ColorThemePage";
 import { TermsPage } from "../../components/TermsPage";
+import { StylePage } from "@/app/components/StylePage";
+import { Icon } from "@/app/components/Icon";
 
 export const UserProfileComponents = () => {
     return (
@@ -14,6 +16,9 @@ export const UserProfileComponents = () => {
                 </UserProfilePage>
                 <UserProfilePage label='Color Theme' url='theme' labelIcon={<span>🎨</span>}>
                     <ColorThemePage />
+                </UserProfilePage>
+                <UserProfilePage label='<- Themed Icon' url='style' labelIcon={<Icon />}>
+                    <StylePage />
                 </UserProfilePage>
                 <UserProfileLink label="Go Back" url="/" labelIcon={<span>🔙</span>} />
             </UserProfile>
