@@ -14,6 +14,9 @@ export default function Home() {
       <div style={{marginTop: '30px'}}>
         <Link href="/user-hash" style={{border: '1px solid black', padding: '5px'}}>UserProfile with Hash Router</Link>
       </div>
+      <div style={{marginTop: '30px'}}>
+        <Link href="/user-hash-reordered" style={{border: '1px solid black', padding: '5px'}}>UserProfile Reordered with Hash Router</Link>
+      </div>
     </main>
   )
 }
