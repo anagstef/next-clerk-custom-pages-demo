@@ -1,7 +1,7 @@
-import { UserProfilePage } from './UserProfilePage';
+import { UserProfileComponents } from './UserProfileComponents';
 
 export default function Page() {
   return (
-    <UserProfilePage />
+    <UserProfileComponents />
   );
 }

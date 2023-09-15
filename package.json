@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "4.24.0-snapshot.ec64616",
+    "@clerk/nextjs": "4.24.0-snapshot.1738abd",
     "@types/node": "20.6.0",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
