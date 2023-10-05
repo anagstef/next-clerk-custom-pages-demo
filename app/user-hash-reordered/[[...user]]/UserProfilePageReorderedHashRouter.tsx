@@ -7,7 +7,7 @@ import { UserProfile } from "@clerk/nextjs";
 export const UserProfilePageReorderedHashRouter = () => {
     return (
         <div style={{border: '1px solid black', margin: '50px'}}>
-            <div>User Profile Component</div>
+            <div>User Profile Reordered with Hash Router</div>
             <UserProfile>
                 <UserProfile.Page label='Color Theme' url='theme' labelIcon={<span>🎨</span>}>
                     <ColorThemePage />
